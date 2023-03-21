@@ -17,7 +17,7 @@
 set -o errexit
 
 readonly URL=${URL:-"http://localhost:3000"}
-readonly LOGIN=${LOGIN:-"admin:INSIRA UMA SENHA#"}
+readonly LOGIN=${LOGIN:-"admin:Teste@1234#"}
 readonly DASHBOARDS_DIRECTORY=${DASHBOARDS_DIRECTORY:-"./grafana/dashboards"}
 
 
