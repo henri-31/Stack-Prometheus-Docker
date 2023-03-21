@@ -7,21 +7,27 @@ Para executar este projeto, você precisará ter instalado em sua máquina o Doc
 **Instalação e execução**
 
 1.Clone o repositório em sua máquina local:
+
 **git clone https://github.com/henri-31/Stack-Prometheus-Docker.git**
 
 2.Navegue até o diretório do projeto:
+
 **cd Stack-Prometheus-Docker**
 
 3.Execute o comando abaixo para construir e executar os containers Docker:
+
 **docker-compose up -d**
 
 4.Aguarde alguns instantes para que todos os serviços sejam inicializados corretamente. Para verificar se os containers estão sendo executados corretamente, execute o seguinte comando:
+
 **docker ps**
 
 5.Abra o navegador e acesse o Prometheus na URL:
+
 **http://localhost:9090/**
 
 6.Abra o navegador e acesse o Grafana na URL:
+
 **http://localhost:3000/**
 
 7.Faça login no Grafana com as credenciais padrão (usuário: admin, senha: admin) e configure a fonte de dados Prometheus.
@@ -31,6 +37,7 @@ Para executar este projeto, você precisará ter instalado em sua máquina o Doc
 
 ##**Parando o projeto**
 Para parar e remover os containers Docker, execute o seguinte comando:
+
 **docker-compose down**
 
 Este comando irá parar e remover todos os containers, redes e volumes relacionados a este projeto.
