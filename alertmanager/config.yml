@@ -1,0 +1,13 @@
+global:
+  resolve_timeout: 1m
+  slack_api_url: 'Insira o Webhook do Slack'
+
+route:
+  receiver: 'slack-notifications'
+  group_by: [alertname, datacenter, app]  
+
+receivers:
+- name: 'slack-notifications'
+  slack_configs:
+  - channel: '#Insira seu Canal do Slack'
+    send_resolved: true
