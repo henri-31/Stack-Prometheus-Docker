@@ -45,6 +45,7 @@ Para executar este projeto, você precisará ter instalado em sua máquina o Doc
 ##**Parando o projeto**
 Para parar e remover os containers Docker, execute o seguinte comando:
 
+
 **docker-compose down**
 
 
