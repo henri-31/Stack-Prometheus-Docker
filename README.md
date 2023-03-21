@@ -5,6 +5,7 @@ Este projeto consiste em um conjunto de serviços que utilizam o Docker Compose 
 Para executar este projeto, você precisará ter instalado em sua máquina o Docker e o Docker Compose. Certifique-se também de que as portas 9090 e 3000 estejam disponíveis em sua máquina.
 
 **Instalação e execução**
+
 1.Clone o repositório em sua máquina local:
 **git clone https://github.com/henri-31/Stack-Prometheus-Docker.git**
 
